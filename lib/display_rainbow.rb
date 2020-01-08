@@ -1,5 +1,5 @@
 # Write your #display_rainbow method here
-def display_rainbow(colors)
+def display_rainbow(colors, letter)
   colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'] 
   letters = [ "R", "O" , "Y" , "G", "B" , "I" , "V" ] 
   puts " Color #{letter[0]} : #{colors[0]}"
@@ -9,5 +9,6 @@ def display_rainbow(colors)
   puts " Color #{letter[4]} : #{colors[4]}"
   puts " Color #{letter[5]} : #{colors[5]}"
   puts " Color #{letter[6]} : #{colors[6]}"
-end 
+end  
+ print display_rainbow(colors, letter)
 

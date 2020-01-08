@@ -10,5 +10,5 @@ def display_rainbow(colors, letter)
   puts " Color #{letter[5]} : #{colors[5]}"
   puts " Color #{letter[6]} : #{colors[6]}"
 end  
- print display_rainbow(colors, letter)
+ display_rainbow(colors)
 
